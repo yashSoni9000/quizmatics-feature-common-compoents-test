@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Test snapshot test 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg flex w-full p-0 h-full items-center max-w-full css-1uuj62e-MuiContainer-root"
+  >
+    <div
+      class="pl-3 mr-2 hidden lg:flex MuiBox-root css-0"
+    >
+      <img
+        alt=""
+        class="h-10"
+        src="favicon.png"
+      />
+    </div>
+    <h6
+      class="MuiTypography-root MuiTypography-h6 MuiTypography-noWrap m-4 text-2xl hidden lg:flex css-8u39c-MuiTypography-root"
+    >
+      QuizMatics
+    </h6>
+    <div
+      class="flex lg:none MuiBox-root css-0"
+    >
+      <button
+        aria-controls="menu-appbar"
+        aria-haspopup="true"
+        aria-label="menu-appbar"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeLarge block lg:hidden css-1pz7awu-MuiButtonBase-root-MuiIconButton-root"
+        tabindex="0"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+          data-testid="MenuIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+          />
+        </svg>
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <h5
+      class="MuiTypography-root MuiTypography-h5 MuiTypography-noWrap mr-4 font-bold flex lg:hidden css-1961ak2-MuiTypography-root"
+    >
+      QuizMatics
+    </h5>
+    <div
+      class="ml-auto flex mr-3 MuiBox-root css-0"
+    >
+      <div
+        class="w-fit h-full mr-2 MuiBox-root css-0"
+      >
+        <span
+          class="MuiSwitch-root MuiSwitch-sizeMedium css-1ibuyee-MuiSwitch-root"
+        >
+          <span
+            class="MuiButtonBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked PrivateSwitchBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked Mui-checked css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase"
+            data-testid="theme-switch"
+          >
+            <input
+              checked=""
+              class="PrivateSwitchBase-input MuiSwitch-input css-1m9pwf3"
+              type="checkbox"
+            />
+            <span
+              class="MuiSwitch-thumb css-jsexje-MuiSwitch-thumb"
+            />
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </span>
+          <span
+            class="MuiSwitch-track css-1yjjitx-MuiSwitch-track"
+          />
+        </span>
+      </div>
+      <button
+        aria-label="Open settings"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium p-0 css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+        data-mui-internal-clone-element="true"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="MuiAvatar-root MuiAvatar-circular css-1wlk0hk-MuiAvatar-root"
+        >
+          <img
+            alt="Remy Sharp"
+            class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+            src="profile-img.svg"
+          />
+        </div>
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    class="hidden absolute top-0 left-0 w-screen h-screen justify-center  items-center backdrop-blur-sm gap-2 z-30 MuiBox-root css-0"
+    data-testid="logoutScreen"
+  >
+    <div
+      class="flex justify-center items-center  MuiBox-root css-0"
+    >
+      <span
+        class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-18lrjg1-MuiCircularProgress-root"
+        role="progressbar"
+        style="width: 40px; height: 40px;"
+      >
+        <svg
+          class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+          viewBox="22 22 44 44"
+        >
+          <circle
+            class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+            cx="44"
+            cy="44"
+            fill="none"
+            r="20.2"
+            stroke-width="3.6"
+          />
+        </svg>
+      </span>
+    </div>
+    <p
+      class="MuiTypography-root MuiTypography-body1 text-base z-40 opacity-100 css-vkc4v8-MuiTypography-root"
+    >
+      Logging Out..
+    </p>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Data Display Card Test DataDisplayCard simulation from error state to non-error state 1`] = `
+<DocumentFragment>
+  <div
+    class="undefined flex flex-col p-4 gap-4 w-full h-full rounded-lg MuiBox-root css-1u8r73e"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 mx-auto text-lg md:text-3xl text-center css-4peds9-MuiTypography-root"
+    >
+      title
+    </p>
+    <div
+      class="gap-4 flex flex-1 w-full MuiBox-root css-0"
+    >
+      <div
+        class="flex flex-col flex-1 justify-between mx-auto p-2 min-h-[5.5rem] scale-100 
+                                                    rounded-lg transition-colors duration-300 hover:cursor-pointer MuiBox-root css-1aytai0"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 text-center css-ahj2mt-MuiTypography-root"
+        >
+          Label
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 text-xl mt-2 text-center font-bold css-ahj2mt-MuiTypography-root"
+        >
+          20
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Data Display Card Test snapshot test 1`] = `
+<DocumentFragment>
+  <div
+    class="undefined flex flex-col p-4 gap-4 w-full h-full rounded-lg MuiBox-root css-1u8r73e"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 mx-auto text-lg md:text-3xl text-center css-4peds9-MuiTypography-root"
+    >
+      title
+    </p>
+    <div
+      class="gap-4 flex flex-1 w-full MuiBox-root css-0"
+    >
+      <div
+        class="flex flex-col flex-1 justify-between mx-auto p-2 min-h-[5.5rem] scale-100 
+                                                    rounded-lg transition-colors duration-300 hover:cursor-pointer MuiBox-root css-1aytai0"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 text-center css-ahj2mt-MuiTypography-root"
+        >
+          Label
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 text-xl mt-2 text-center font-bold css-ahj2mt-MuiTypography-root"
+        >
+          20
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

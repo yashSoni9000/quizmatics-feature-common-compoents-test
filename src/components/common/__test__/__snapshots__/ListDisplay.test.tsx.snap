@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Display Test Data is rendered correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="undefined flex flex-col gap-2 MuiBox-root css-0"
+  >
+    <div
+      class="MuiBox-root css-0"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-18a2bkc-MuiTypography-root"
+      />
+    </div>
+    <ul
+      class="MuiList-root MuiList-padding p-0 rounded-lg flex-1 overflow-y-scroll css-h4y409-MuiList-root"
+    >
+      <li
+        class="MuiListItem-root MuiListItem-gutters MuiListItem-padding flex justify-between border-b border-b-gray-300 css-1p823my-MuiListItem-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+        >
+          item 1
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1  rounded-md p-1.5 css-1eeia4w-MuiTypography-root"
+        >
+          20
+        </p>
+      </li>
+      <li
+        class="MuiListItem-root MuiListItem-gutters MuiListItem-padding flex justify-between border-b border-b-gray-300 css-1p823my-MuiListItem-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+        >
+          item 2
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1  rounded-md p-1.5 css-1eeia4w-MuiTypography-root"
+        >
+          30
+        </p>
+      </li>
+      <li
+        class="MuiListItem-root MuiListItem-gutters MuiListItem-padding flex justify-between border-b border-b-gray-300 css-1p823my-MuiListItem-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+        >
+          item 3
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1  rounded-md p-1.5 css-1eeia4w-MuiTypography-root"
+        >
+          40
+        </p>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

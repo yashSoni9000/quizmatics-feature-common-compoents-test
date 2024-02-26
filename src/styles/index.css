@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.MuiDataGrid-selectedRowCount {
+    visibility: hidden !important ;
+}
+
+.ellipsiss {
+    display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+.required:after {
+    content: "*";
+}
+
+.wrap {
+    text-wrap: wrap;
+}

@@ -1,0 +1,689 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard Test Navbar and Sidebar Integration test 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col h-screen MuiBox-root css-0"
+  >
+    <div
+      class="h-16 border-b border-white MuiBox-root css-0"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg flex w-full p-0 h-full items-center max-w-full css-1uuj62e-MuiContainer-root"
+      >
+        <div
+          class="pl-3 mr-2 hidden lg:flex MuiBox-root css-0"
+        >
+          <img
+            alt=""
+            class="h-10"
+            src="favicon.png"
+          />
+        </div>
+        <h6
+          class="MuiTypography-root MuiTypography-h6 MuiTypography-noWrap m-4 text-2xl hidden lg:flex css-8u39c-MuiTypography-root"
+        >
+          QuizMatics
+        </h6>
+        <div
+          class="flex lg:none MuiBox-root css-0"
+        >
+          <button
+            aria-controls="menu-appbar"
+            aria-haspopup="true"
+            aria-label="menu-appbar"
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeLarge block lg:hidden css-1pz7awu-MuiButtonBase-root-MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="MenuIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+        <h5
+          class="MuiTypography-root MuiTypography-h5 MuiTypography-noWrap mr-4 font-bold flex lg:hidden css-1961ak2-MuiTypography-root"
+        >
+          QuizMatics
+        </h5>
+        <div
+          class="ml-auto flex mr-3 MuiBox-root css-0"
+        >
+          <div
+            class="w-fit h-full mr-2 MuiBox-root css-0"
+          >
+            <span
+              class="MuiSwitch-root MuiSwitch-sizeMedium css-1ibuyee-MuiSwitch-root"
+            >
+              <span
+                class="MuiButtonBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked PrivateSwitchBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked Mui-checked css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase"
+                data-testid="theme-switch"
+              >
+                <input
+                  checked=""
+                  class="PrivateSwitchBase-input MuiSwitch-input css-1m9pwf3"
+                  type="checkbox"
+                />
+                <span
+                  class="MuiSwitch-thumb css-jsexje-MuiSwitch-thumb"
+                />
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </span>
+              <span
+                class="MuiSwitch-track css-1yjjitx-MuiSwitch-track"
+              />
+            </span>
+          </div>
+          <button
+            aria-label="Open settings"
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium p-0 css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+            data-mui-internal-clone-element="true"
+            tabindex="0"
+            type="button"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circular css-1wlk0hk-MuiAvatar-root"
+            >
+              <img
+                alt="Remy Sharp"
+                class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                src="profile-img.svg"
+              />
+            </div>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="hidden absolute top-0 left-0 w-screen h-screen justify-center  items-center backdrop-blur-sm gap-2 z-30 MuiBox-root css-0"
+        data-testid="logoutScreen"
+      >
+        <div
+          class="flex justify-center items-center  MuiBox-root css-0"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-18lrjg1-MuiCircularProgress-root"
+            role="progressbar"
+            style="width: 40px; height: 40px;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+              viewBox="22 22 44 44"
+            >
+              <circle
+                class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+                cx="44"
+                cy="44"
+                fill="none"
+                r="20.2"
+                stroke-width="3.6"
+              />
+            </svg>
+          </span>
+        </div>
+        <p
+          class="MuiTypography-root MuiTypography-body1 text-base z-40 opacity-100 css-vkc4v8-MuiTypography-root"
+        >
+          Logging Out..
+        </p>
+      </div>
+    </div>
+    <div
+      class="flex flex-1 overflow-hidden MuiBox-root css-0"
+    >
+      <div
+        class="overflow-scroll min-w-fit max-w-fit MuiBox-root css-1k9ek97"
+      >
+        <div
+          class="h-full flex-col z-20 top-0 justify-between transition-all animate-slideIn lg:flex fixed lg:static w-60 false hidden MuiBox-root css-yodspd"
+          data-testid="sidebar"
+        >
+          <ul
+            class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+          >
+            <a
+              aria-current="page"
+              class="active"
+              href="/"
+            >
+              <li
+                class="MuiListItem-root MuiListItem-gutters css-1nxmd3h-MuiListItem-root"
+              >
+                <div
+                  class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters m-1 rounded-lg gap-4 h-12 css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+                  role="button"
+                  tabindex="0"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="SpaceDashboardIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M11 21H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h6v18zm2 0h6c1.1 0 2-.9 2-2v-7h-8v9zm8-11V5c0-1.1-.9-2-2-2h-6v7h8z"
+                    />
+                  </svg>
+                  <div
+                    class="MuiListItemText-root flex text-inherit pr-2 truncate false css-tlelie-MuiListItemText-root"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                    >
+                      Dashboard
+                    </span>
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </div>
+              </li>
+            </a>
+            <a
+              class=""
+              href="/groups"
+            >
+              <li
+                class="MuiListItem-root MuiListItem-gutters css-1nxmd3h-MuiListItem-root"
+              >
+                <div
+                  class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters m-1 rounded-lg gap-4 h-12 css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+                  role="button"
+                  tabindex="0"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="GroupIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"
+                    />
+                  </svg>
+                  <div
+                    class="MuiListItemText-root flex text-inherit pr-2 truncate false css-tlelie-MuiListItemText-root"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                    >
+                      My Groups
+                    </span>
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </div>
+              </li>
+            </a>
+            <a
+              class=""
+              href="/quizzes"
+            >
+              <li
+                class="MuiListItem-root MuiListItem-gutters css-1nxmd3h-MuiListItem-root"
+              >
+                <div
+                  class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters m-1 rounded-lg gap-4 h-12 css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+                  role="button"
+                  tabindex="0"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="EventIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"
+                    />
+                  </svg>
+                  <div
+                    class="MuiListItemText-root flex text-inherit pr-2 truncate false css-tlelie-MuiListItemText-root"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                    >
+                      My Quizzes
+                    </span>
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </div>
+              </li>
+            </a>
+            <a
+              class=""
+              href="/questions"
+            >
+              <li
+                class="MuiListItem-root MuiListItem-gutters css-1nxmd3h-MuiListItem-root"
+              >
+                <div
+                  class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters m-1 rounded-lg gap-4 h-12 css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+                  role="button"
+                  tabindex="0"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="BookmarkIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"
+                    />
+                  </svg>
+                  <div
+                    class="MuiListItemText-root flex text-inherit pr-2 truncate false css-tlelie-MuiListItemText-root"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                    >
+                      Saved Questions
+                    </span>
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </div>
+              </li>
+            </a>
+          </ul>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium ml-auto p-4 border-t border-gray-300 rounded-none border-solid w-full h-16 hidden lg:block css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+            data-testid="collapse-button"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium false transition-all duration-300 css-sfm0z2-MuiSvgIcon-root"
+              data-testid="ArrowBackIosNewIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17.77 3.77 16 2 6 12l10 10 1.77-1.77L9.54 12z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="w-full overflow-y-auto p-3 md:p-4 MuiBox-root css-1k9ek97"
+      />
+    </div>
+  </div>
+  <div
+    class="top-0 w-screen h-screen z-10 backdrop-blur-sm false md:hidden MuiBox-root css-0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Dashboard Test snapshot test 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col h-screen MuiBox-root css-0"
+  >
+    <div
+      class="h-16 border-b border-white MuiBox-root css-0"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg flex w-full p-0 h-full items-center max-w-full css-1uuj62e-MuiContainer-root"
+      >
+        <div
+          class="pl-3 mr-2 hidden lg:flex MuiBox-root css-0"
+        >
+          <img
+            alt=""
+            class="h-10"
+            src="favicon.png"
+          />
+        </div>
+        <h6
+          class="MuiTypography-root MuiTypography-h6 MuiTypography-noWrap m-4 text-2xl hidden lg:flex css-8u39c-MuiTypography-root"
+        >
+          QuizMatics
+        </h6>
+        <div
+          class="flex lg:none MuiBox-root css-0"
+        >
+          <button
+            aria-controls="menu-appbar"
+            aria-haspopup="true"
+            aria-label="menu-appbar"
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeLarge block lg:hidden css-1pz7awu-MuiButtonBase-root-MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="MenuIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+        <h5
+          class="MuiTypography-root MuiTypography-h5 MuiTypography-noWrap mr-4 font-bold flex lg:hidden css-1961ak2-MuiTypography-root"
+        >
+          QuizMatics
+        </h5>
+        <div
+          class="ml-auto flex mr-3 MuiBox-root css-0"
+        >
+          <div
+            class="w-fit h-full mr-2 MuiBox-root css-0"
+          >
+            <span
+              class="MuiSwitch-root MuiSwitch-sizeMedium css-1ibuyee-MuiSwitch-root"
+            >
+              <span
+                class="MuiButtonBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked PrivateSwitchBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked Mui-checked css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase"
+                data-testid="theme-switch"
+              >
+                <input
+                  checked=""
+                  class="PrivateSwitchBase-input MuiSwitch-input css-1m9pwf3"
+                  type="checkbox"
+                />
+                <span
+                  class="MuiSwitch-thumb css-jsexje-MuiSwitch-thumb"
+                />
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </span>
+              <span
+                class="MuiSwitch-track css-1yjjitx-MuiSwitch-track"
+              />
+            </span>
+          </div>
+          <button
+            aria-label="Open settings"
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium p-0 css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+            data-mui-internal-clone-element="true"
+            tabindex="0"
+            type="button"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circular css-1wlk0hk-MuiAvatar-root"
+            >
+              <img
+                alt="Remy Sharp"
+                class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                src="profile-img.svg"
+              />
+            </div>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="hidden absolute top-0 left-0 w-screen h-screen justify-center  items-center backdrop-blur-sm gap-2 z-30 MuiBox-root css-0"
+        data-testid="logoutScreen"
+      >
+        <div
+          class="flex justify-center items-center  MuiBox-root css-0"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-18lrjg1-MuiCircularProgress-root"
+            role="progressbar"
+            style="width: 40px; height: 40px;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+              viewBox="22 22 44 44"
+            >
+              <circle
+                class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+                cx="44"
+                cy="44"
+                fill="none"
+                r="20.2"
+                stroke-width="3.6"
+              />
+            </svg>
+          </span>
+        </div>
+        <p
+          class="MuiTypography-root MuiTypography-body1 text-base z-40 opacity-100 css-vkc4v8-MuiTypography-root"
+        >
+          Logging Out..
+        </p>
+      </div>
+    </div>
+    <div
+      class="flex flex-1 overflow-hidden MuiBox-root css-0"
+    >
+      <div
+        class="overflow-scroll min-w-fit max-w-fit MuiBox-root css-1k9ek97"
+      >
+        <div
+          class="h-full flex-col z-20 top-0 justify-between transition-all animate-slideIn lg:flex fixed lg:static w-60 false hidden MuiBox-root css-yodspd"
+          data-testid="sidebar"
+        >
+          <ul
+            class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+          >
+            <a
+              aria-current="page"
+              class="active"
+              href="/"
+            >
+              <li
+                class="MuiListItem-root MuiListItem-gutters css-1nxmd3h-MuiListItem-root"
+              >
+                <div
+                  class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters m-1 rounded-lg gap-4 h-12 css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+                  role="button"
+                  tabindex="0"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="SpaceDashboardIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M11 21H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h6v18zm2 0h6c1.1 0 2-.9 2-2v-7h-8v9zm8-11V5c0-1.1-.9-2-2-2h-6v7h8z"
+                    />
+                  </svg>
+                  <div
+                    class="MuiListItemText-root flex text-inherit pr-2 truncate false css-tlelie-MuiListItemText-root"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                    >
+                      Dashboard
+                    </span>
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </div>
+              </li>
+            </a>
+            <a
+              class=""
+              href="/groups"
+            >
+              <li
+                class="MuiListItem-root MuiListItem-gutters css-1nxmd3h-MuiListItem-root"
+              >
+                <div
+                  class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters m-1 rounded-lg gap-4 h-12 css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+                  role="button"
+                  tabindex="0"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="GroupIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"
+                    />
+                  </svg>
+                  <div
+                    class="MuiListItemText-root flex text-inherit pr-2 truncate false css-tlelie-MuiListItemText-root"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                    >
+                      My Groups
+                    </span>
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </div>
+              </li>
+            </a>
+            <a
+              class=""
+              href="/quizzes"
+            >
+              <li
+                class="MuiListItem-root MuiListItem-gutters css-1nxmd3h-MuiListItem-root"
+              >
+                <div
+                  class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters m-1 rounded-lg gap-4 h-12 css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+                  role="button"
+                  tabindex="0"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="EventIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"
+                    />
+                  </svg>
+                  <div
+                    class="MuiListItemText-root flex text-inherit pr-2 truncate false css-tlelie-MuiListItemText-root"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                    >
+                      My Quizzes
+                    </span>
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </div>
+              </li>
+            </a>
+            <a
+              class=""
+              href="/questions"
+            >
+              <li
+                class="MuiListItem-root MuiListItem-gutters css-1nxmd3h-MuiListItem-root"
+              >
+                <div
+                  class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters m-1 rounded-lg gap-4 h-12 css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+                  role="button"
+                  tabindex="0"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="BookmarkIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"
+                    />
+                  </svg>
+                  <div
+                    class="MuiListItemText-root flex text-inherit pr-2 truncate false css-tlelie-MuiListItemText-root"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                    >
+                      Saved Questions
+                    </span>
+                  </div>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </div>
+              </li>
+            </a>
+          </ul>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium ml-auto p-4 border-t border-gray-300 rounded-none border-solid w-full h-16 hidden lg:block css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+            data-testid="collapse-button"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium false transition-all duration-300 css-sfm0z2-MuiSvgIcon-root"
+              data-testid="ArrowBackIosNewIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17.77 3.77 16 2 6 12l10 10 1.77-1.77L9.54 12z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="w-full overflow-y-auto p-3 md:p-4 MuiBox-root css-1k9ek97"
+      />
+    </div>
+  </div>
+  <div
+    class="top-0 w-screen h-screen z-10 backdrop-blur-sm false md:hidden MuiBox-root css-0"
+  />
+</DocumentFragment>
+`;

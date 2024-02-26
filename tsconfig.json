@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "useDefineForClassFields": true,
+        "lib": ["ES2020", "DOM", "DOM.Iterable"],
+        "module": "ESNext",
+        "skipLibCheck": true,
+        "moduleResolution": "bundler",
+        "allowImportingTsExtensions": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "baseUrl": ".",
+        "paths": {
+            "@src/*": ["src/*"],
+            "@assets/*": ["src/assets/*"],
+            "@images/*": ["src/assets/images/*"],
+            "@interfaces/*": ["src/ts/interfaces/*"],
+            "@components/*": ["src/components/*"],
+            "@constants/*": ["src/constants/*"],
+            "@context/*": ["src/context/*"],
+            "@layout/*": ["src/layout/*"],
+            "@pages/*": ["src/pages/*"],
+            "@routes/*": ["src/routes/*"],
+            "@styles/*": ["src/styles/*"],
+            "@test/*": ["src/__test__/*"],
+            "@themes/*": ["src/themes/*"],
+            "@types/*": ["src/ts/types/*"],
+            "@utils/*": ["src/utils/*"]
+        }
+    },
+    "include": ["src", "setup.ts"],
+    "references": [{ "path": "./tsconfig.node.json" }]
+}
