@@ -2,7 +2,7 @@ export const STRAPI_API = "http://localhost:1337/api";
 
 export const NPOINT_BASE_URL = "https://api.npoint.io";
 
-export const DOMAIN = "https://localhost:5173";
+export const DOMAIN = "dainty-marigold-6d6d89.netlify.app";
 
 export const USER_API = "api/users/me";
 
